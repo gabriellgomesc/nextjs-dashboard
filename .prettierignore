@@ -1,0 +1,44 @@
+# Ignorar pastas de dependências e builds
+node_modules
+dist
+build
+out
+
+# Ignorar logs e relatórios
+*.log
+coverage
+*.cache
+
+# Ignorar arquivos de controle de versão
+.vscode
+.idea
+
+# Ignorar arquivos de configuração específicos
+*.lock
+*.min.js
+*.map
+*.bundle.js
+
+# Ignorar arquivos de imagens ou binários
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.pdf
+*.zip
+*.exe
+
+# Ignorar arquivos de banco de dados e dumps
+*.sql
+*.sqlite
+*.db
+
+# Ignorar arquivos de sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Outros exemplos específicos do projeto
+.env
